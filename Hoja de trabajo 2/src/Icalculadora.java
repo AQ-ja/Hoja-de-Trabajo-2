@@ -1,5 +1,5 @@
 /**
- *@author Alfredo Quezada
+ *@author Alfredo Quezada 191002
  * @author Juan Marroquin 19845
  */
 public interface Icalculadora {
