@@ -13,13 +13,14 @@ import java.util.Stack;
 public class Lectora {
     Calculadora Calculadora = new Calculadora();
     String linea;
-    Stack<String> pila = new Stack<String>();
+    Stack<String> pila = new Stack<>();
     int operador1;
     int operador2;
     String[] lista;
     int x;
     String z;
     int count;
+ 
     
     
     //constructor
@@ -30,7 +31,7 @@ public class Lectora {
         count = 0;
         FileReader file = new FileReader(archivo);
         BufferedReader a = new BufferedReader(file);
-        while(count == 0){
+        //while(count == 0){
             linea = a.readLine();
             //System.out.println(linea);
             lista = linea.split(" ");
@@ -77,9 +78,9 @@ public class Lectora {
                 }
             
             }
-            a.close();
-        }
+            
+        a.close();
         return resultado;
     }
-    
+   
 }
