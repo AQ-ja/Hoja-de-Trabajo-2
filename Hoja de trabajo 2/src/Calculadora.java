@@ -7,9 +7,8 @@ public class Calculadora implements Icalculadora{
     private int operador1;
     private int operador2;
     // constructor de calculadora
-    public Calculadora(int operador1, int operador2) {
-        this.operador1 = operador1;
-        this.operador2 = operador2;
+    public Calculadora() {
+        
     }
     //getters y setters operador1
     public int getOperador1() {
